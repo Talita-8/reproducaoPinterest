@@ -1,0 +1,130 @@
+.divMae{
+    background-color: white;
+}
+
+.logotipo{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.divBusca{
+  background-color:white;
+  border:solid 1px;
+  border-color: darkgray;
+  border-radius:15px;
+  width:600px;
+  position: relative;
+  bottom: 40px;
+  left: 400px;
+}
+
+.caixaPesquisa{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:400px;
+  position:relative;
+  left: 80px;
+}
+
+.lupa{
+    position: relative;
+    right: 399px;
+    top: 2px;
+}
+.botaoSegue{
+    background-color: white;
+    border: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+    cursor: pointer;
+}
+.botaoSegue:hover{
+    background-color: rgb(228, 228, 228);
+}
+.botaoHj{
+    background-color: white;
+    border: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+    cursor: pointer;
+}
+.botaoHj:hover{
+    background-color: rgb(228, 228, 228);
+}
+.botaoPagIni{
+    background-color: black;
+    border-color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 6px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    background-color: rgb(250, 250, 250);
+    margin: 5px;
+    padding: 20px;
+}
+.fotos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+
+#foto1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+#foto2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+#foto3{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+#foto4{ 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#foto5{ 
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
