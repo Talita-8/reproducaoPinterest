@@ -1,4 +1,5 @@
 #div-mother{
+    width: 100%;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +22,9 @@
 
     margin: 0 8px 0 8px;
 }
+form {
+    float: right; 
+}
 
 #search-box {
     width: 700px;
@@ -35,9 +39,14 @@
 
     margin: 0 8px 0 8px;
 }
+#menu-notifications {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+}
 
 #bell {
-    margin: 0 8px 0 8px;
+    margin: 0 8px 0 0;
 }
 
 #in-box {
@@ -50,7 +59,7 @@
 }
 
 
-#galery-pics {    
+#gallery-pics {    
     display: grid;
 
     margin: 30px;
