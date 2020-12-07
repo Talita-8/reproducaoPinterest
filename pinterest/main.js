@@ -4,9 +4,10 @@ console.log(gallery)
 
 const galleryPics = document.getElementById("gallery-container")
 let textIn = document.getElementById("in-box")
-textIn.addEventListener("keyup", showPics)
+textIn.addEventListener("input", showPics)
 
-function showPics(){
+function showPics(e){
+    e.preventDefault()
     let countin = 0
     let pics = ""
     let world = textIn.value
