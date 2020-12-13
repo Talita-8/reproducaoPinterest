@@ -25,3 +25,44 @@ function showPics(){
    }
 }
 
+const inicialButton = document.getElementById("inicial-page-button")
+inicialButton.addEventListener("click", changeInicialButton)
+
+function changeInicialButton(){
+    inicialButton.style.backgroundColor = "black"
+    inicialButton.style.color = " white"
+
+    todayButton.style.backgroundColor = "white"
+    todayButton.style.color = "black"
+
+    followinButton.style.backgroundColor = "white"
+    followinButton.style.color = "black"
+}
+
+const todayButton = document.getElementById("today-button")
+todayButton.addEventListener("click", changeTodayButton)
+
+function changeTodayButton(){
+    todayButton.style.backgroundColor = "black"
+    todayButton.style.color = "white"
+
+    inicialButton.style.backgroundColor = "white"
+    inicialButton.style.color = "black"
+
+    followinButton.style.backgroundColor = "white"
+    followinButton.style.color = "black"
+}
+
+const followinButton = document.getElementById("following-button")
+followinButton.addEventListener("click", changefollowinButton)
+
+function changefollowinButton(){
+    followinButton.style.backgroundColor = "black"
+    followinButton.style.color = "white"
+
+    inicialButton.style.backgroundColor = "white"
+    inicialButton.style.color = "black"
+
+    todayButton.style.backgroundColor = "white"
+    todayButton.style.color = "black"
+}

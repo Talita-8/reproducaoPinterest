@@ -23,5 +23,18 @@ export const gallery = {
         "./img/cosplay/cosplay8.jpg",
         "./img/cosplay/cosplay9.jpg",
         "./img/cosplay/cosplay10.jpg"
+    ] ,
+
+    "Gatos" : [
+        "./img/cats/gatos1.jpg",
+        "./img/cats/gatos2.jpg",
+        "./img/cats/gatos3.jpg",
+        "./img/cats/gatos4.jpg",
+        "./img/cats/gatos5.jpg",
+        "./img/cats/gatos6.jpg",
+        "./img/cats/gatos7.jpg",
+        "./img/cats/gatos8.jpg",
+        "./img/cats/gatos9.jpg",
+        "./img/cats/gatos10.jpg"
     ]
 }
