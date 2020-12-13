@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinterest Clone</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/logo-page/pinterest-icon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,34 +14,34 @@
   <div id="div-mother">
     
     
-          <div id="main-menu">
-              <img id="logo" src="./img/logo-page/logo.jpg" alt="pinterest">
+          <nav id="main-menu">
+            <ul>
+                <a href=""> <li> <img id="logo" src="./img/logo-page/pinterest-icon.png" alt="pinterest"> </li> </a>  
                 
-              <button id="inicial-page-button" class="main-menu-button">
+              <a href=""> <li> <button id="inicial-page-button" class="main-menu-button"> 
                                     Página Inicial
-              </button>
+               </button> </li> </a>
        
-              <button id="today-button" class="main-menu-button">
+               <a href=""> <li> <button id="today-button" class="main-menu-button"> 
                                     Hoje
-              </button>
+               </button> </li> </a>
         
-              <button id="following-button" class="main-menu-button">
+               <a href=""> <li> <button id="following-button" class="main-menu-button">  
                                     Seguindo
-              </button>
-            <form action="">
-             <input id="search-box" type="search" placeholder="Pesquisar" incremental="incremental">
-            </form>
-          </div>
-          <div id="menu-notifications">
-            <img id="bell" src="img/logo-page/bell.jpg" alt="notificações">
+               </button> </li> </a>
+               <a href="#"> <li> <form action="">
+                <input id="search-box" type="search" placeholder="Pesquisar" incremental="incremental">
+               </form> </li> </a>
+               <a href=""> <li>  <img id="bell" src="./img/logo-page/bell.png" alt="notificações"> </li> </a>
             
-            <img id="in-box" src="img/logo-page/caixaEntrada.jpg" alt="caixa de entrada">
+               <a href=""> <li> <img id="in-box" src="./img/logo-page/in-box.png" alt="caixa de entrada"> </li> </a>
 
-            <img id="user-logo" src="img/logo-page/sem-foto.jpg" alt="usuário">
-  
-          </div>
+               <a href=""> <li> <img id="user-logo" src="./img/logo-page/profile-icon.png" alt="usuário"> </li>  </a>
+            </ul>
+          </nav>
+          
 
-        <div id="gallery-pics"></div>
+        <div id="gallery-container"></div>
         
   </div>
   <script src="./main.js" type="module"></script>
