@@ -1,4 +1,4 @@
-#Pinterest: Reprodução
+## Pinterest: Reprodução
 
 Colocando em prática os conhecimentos em **Javascript, CSS e Html**, reproduzindo umas das mais utilizadas plataformas de compartilhamento de fotos.
 Alguns detalhes de layout estão diferentes, mas a intenção é reproduzir suas funcionalidades.
